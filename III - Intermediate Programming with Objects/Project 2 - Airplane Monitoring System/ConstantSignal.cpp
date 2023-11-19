@@ -14,8 +14,8 @@ using namespace std;
 using namespace Project2;
 
 // Constructors
-Project2::ConstantSignal::ConstantSignal(double voltageOffset, Time timeOffset)
-    :Signal(voltageOffset, timeOffset)
+Project2::ConstantSignal::ConstantSignal(double voltageOffset, Time TimeOffset)
+    :Signal(voltageOffset, TimeOffset)
 {
 
 }

@@ -36,27 +36,27 @@ namespace Project2
         // PARAMETERS
         //      voltageOffset
         //          The voltage offset based off the signal
-        //      timeOffset
-        //          A time object that tracks the variation of time.
+        //      TimeOffset
+        //          A Time object that tracks the variation of Time.
         //
         // RETURNS
         //      Nothing
         //---------------------------------------------------------------------
-        ConstantSignal(double voltageOffset, Time timeOffset);
+        ConstantSignal(double voltageOffset, Time TimeOffset);
 
         //---------------------------------------------------------------------
         // SUMMARY
-        //      Returns the voltage at a given time.
+        //      Returns the voltage at a given Time.
         //
         // RESOURCES
         //      None
         //
         // PARAMETERS
         //      t
-        //          The time object we will access to aquire the voltage
+        //          The Time object we will access to aquire the voltage
         //
         // RETURNS
-        //      A double referring to the amount of volts in a given time
+        //      A double referring to the amount of volts in a given Time
         //---------------------------------------------------------------------
         double getVoltageAtTime(Time t) const;
     };

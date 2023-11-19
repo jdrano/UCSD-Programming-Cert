@@ -14,9 +14,9 @@ using namespace std;
 using namespace Project2;
 
 // Constructors
-Project2::PeriodicSignal::PeriodicSignal(double voltageOffset, Time timeOffset,
+Project2::PeriodicSignal::PeriodicSignal(double voltageOffset, Time TimeOffset,
     double minVoltage, double maxVoltage, Time period)
-    : Signal(voltageOffset, timeOffset), minVoltage(minVoltage), 
+    : Signal(voltageOffset, TimeOffset), minVoltage(minVoltage), 
     maxVoltage(maxVoltage), period(period)
 {
 

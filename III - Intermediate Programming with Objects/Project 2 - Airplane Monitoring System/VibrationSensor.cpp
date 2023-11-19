@@ -15,14 +15,14 @@ using namespace Project2;
 
 
 // Constructors
-Project2::VibrationSensor::VibrationSensor(string name, Signal &source) : 
-    source(source)
+Project2::VibrationSensor::VibrationSensor(string name, Signal &source) :
+    Sensor(name, source)
 {
-    strcpy(this->name, name);
+    
 }
 
 // Getters
-String
+string
 Project2::VibrationSensor::getUnits() const {
     return "Hertz (Hz)";
 }

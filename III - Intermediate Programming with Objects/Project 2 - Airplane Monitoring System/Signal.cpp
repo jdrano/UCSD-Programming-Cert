@@ -15,8 +15,8 @@ using namespace Project2;
 
 
 // Constructors
-Project2::Signal::Signal(double voltageOffset, Time timeOffset) : 
-    voltageOffset(voltageOffset), timeOffset(timeOffset)
+Project2::Signal::Signal(double voltageOffset, Time TimeOffset) : 
+    voltageOffset(voltageOffset), TimeOffset(TimeOffset)
 {
 
 }
@@ -24,7 +24,7 @@ Project2::Signal::Signal(double voltageOffset, Time timeOffset) :
 // Getters
 Time
 Project2::Signal::getTimeOffset() const {
-    return timeOffset;
+    return TimeOffset;
 }
 
 double

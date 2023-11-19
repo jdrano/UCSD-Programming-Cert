@@ -12,6 +12,8 @@
 #define PROJECT2_SENSOR_H
 
 #include "Time.h"
+#include "Signal.h"
+#include "DataRecorder.h"
 
 namespace Project2
 {
@@ -60,7 +62,7 @@ namespace Project2
         // RETURNS
         //      None
         //---------------------------------------------------------------------
-        takeReading(Time t, DataRecorder &recorder);
+        void takeReading(Time t, DataRecorder &recorder);
 
     protected:
         //---------------------------------------------------------------------
@@ -109,7 +111,8 @@ namespace Project2
         Signal& getSource() const;
 
     private:
-        String name;
+        string name;
+        Signal &source;
     };
 }
 

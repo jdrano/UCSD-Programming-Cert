@@ -18,49 +18,44 @@ using std::string;
 #include "UnitTest.h"
 
 // Include Project2 headers
-
-/*
 #include "AngularSensor.h"
 using Project2::AngularSensor;
-*/
+
 #include "ConstantSignal.h"
 using Project2::ConstantSignal;
 
 #include "DataRecorder.h"
 using Project2::DataRecorder;
-/*
+
 #include "MonitoringSystem.h"
 using Project2::MonitoringSystem;
-*/
+
 #include "PeriodicSignal.h"
 using Project2::PeriodicSignal;
-/*
+
 #include "PressureSensor.h"
 using Project2::PressureSensor;
-*/
+
 #include "SawtoothSignal.h"
 using Project2::SawtoothSignal;
-/*
+
 #include "Sensor.h"
 using Project2::Sensor;
-*/
+
 #include "Signal.h"
 using Project2::Signal;
 
 #include "SineSignal.h"
 using Project2::SineSignal;
-/*
+
 #include "TemperatureSensor.h"
 using Project2::TemperatureSensor;
 
-*/
 #include "Time.h"
 using Project2::Time;
 
-/*
 #include "VibrationSensor.h"
 using Project2::VibrationSensor;
-*/
 
 void Project2UnitTest::Initialize(ostream &out)
 {
@@ -103,7 +98,6 @@ void Project2UnitTest::TestTime()
 	TestTime_ToString();
 	TestTime_OperatorPlusEqual();
 }
-
 
 void TestDataRecorder_log0DigitsAfterSensorValueDecimal()
 {
@@ -167,7 +161,6 @@ void Project2UnitTest::TestDataRecorder()
 	TestDataRecorder_log2DigitsAfterSensorValueDecimal();
 	TestDataRecorder_log3DigitsAfterSensorValueDecimal();
 }
-
 
 void TestConstantSignal_Zeroed()
 {
@@ -444,7 +437,7 @@ void Project2UnitTest::TestSineSignal()
 	TestSineSignal_VariedTimeOffset();
 	TestSineSignal_VariedAll();
 }
-/*
+
 void TestAngularSensor_takeReadingFromConstantSignal()
 {
 	TestFramework::BeginTest("TestAngularSensor_takeReadingFromConstantSignal");
@@ -815,5 +808,3 @@ void Project2UnitTest::TestMonitoringSystem()
 	TestMonitoringSystem_Take2Readings3Sensors();
 	TestMonitoringSystem_Take5Readings5Sensors();
 }
-
-*/

@@ -36,8 +36,8 @@ namespace Project2
         // PARAMETERS
         //      voltageOffset
         //          The voltage offset based off the signal
-        //      timeOffset
-        //          A time object that tracks the variation of time.
+        //      TimeOffset
+        //          A Time object that tracks the variation of Time.
         //      minVoltage
         //          The lowest voltage the signal ranges from
         //      maxVoltage
@@ -48,22 +48,22 @@ namespace Project2
         // RETURNS
         //      Nothing
         //---------------------------------------------------------------------
-        PeriodicSignal(double voltageOffset, Time timeOffset, 
+        PeriodicSignal(double voltageOffset, Time TimeOffset, 
             double minVoltage, double maxVoltage, Time period);
 
         //---------------------------------------------------------------------
         // SUMMARY
-        //      Returns the voltage at a given time.
+        //      Returns the voltage at a given Time.
         //
         // RESOURCES
         //      None
         //
         // PARAMETERS
         //      t
-        //          The time object we will access to aquire the voltage
+        //          The Time object we will access to aquire the voltage
         //
         // RETURNS
-        //      A double referring to the amount of volts in a given time
+        //      A double referring to the amount of volts in a given Time
         //---------------------------------------------------------------------
         virtual double getVoltageAtTime(Time t) const = 0;
 

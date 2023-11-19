@@ -9,20 +9,23 @@
 // Declarations for AngularSensor class.
 
 #include "AngularSensor.h"
+#include "Time.h"
+#include "Signal.h"
+#include "DataRecorder.h"
 
 using namespace std;
 using namespace Project2;
 
 
 // Constructors
-Project2::AngularSensor::AngularSensor(string name, Signal &source) : 
-    source(source)
+Project2::AngularSensor::AngularSensor(string name, Signal &source)   :
+    Sensor(name, source)
 {
-    strcpy(this->name, name);
+
 }
 
 // Getters
-String
+string
 Project2::AngularSensor::getUnits() const {
     return "Radians";
 }

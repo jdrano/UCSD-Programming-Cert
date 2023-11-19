@@ -36,15 +36,15 @@ Project2::Time::operator+=(const Time &rhs) {
 
 ostream&
 Project2::operator<<(ostream &out, const Time &source) {
-    int timeLeft = source.getTotalTimeAsSeconds();
+    int TimeLeft = source.getTotalTimeAsSeconds();
 
-    int hours = timeLeft / SECS_IN_HOUR;
-    timeLeft %= SECS_IN_HOUR;
+    int hours = TimeLeft / SECS_IN_HOUR;
+    TimeLeft %= SECS_IN_HOUR;
 
-    int minutes = timeLeft / SECS_IN_MIN;
-    timeLeft %= SECS_IN_MIN;
+    int minutes = TimeLeft / SECS_IN_MIN;
+    TimeLeft %= SECS_IN_MIN;
 
-    int seconds = timeLeft;
+    int seconds = TimeLeft;
 
     out << hours << "h:" << minutes << "m:" << seconds << "s";
 

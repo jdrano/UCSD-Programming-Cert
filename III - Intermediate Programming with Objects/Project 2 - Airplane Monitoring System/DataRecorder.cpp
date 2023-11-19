@@ -23,7 +23,7 @@ Project2::DataRecorder::DataRecorder(ostream &out) : out(out)
 }
 
 string
-Project2::DataRecorder::log(Time timestamp, string sensorName, 
+Project2::DataRecorder::log(Time Timestamp, string sensorName, 
     double sensorVoltage, string sensorUnits) 
 {
     string log;
@@ -35,9 +35,9 @@ Project2::DataRecorder::log(Time timestamp, string sensorName,
 
 
 
-    // Turn timestamp into a string
+    // Turn Timestamp into a string
     ostringstream dateStream;
-    dateStream << timestamp;
+    dateStream << Timestamp;
     string date = dateStream.str();
 
     // Assemble the log string

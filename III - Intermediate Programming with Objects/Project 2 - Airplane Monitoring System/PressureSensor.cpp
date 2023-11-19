@@ -15,14 +15,14 @@ using namespace Project2;
 
 
 // Constructors
-Project2::PressureSensor::PressureSensor(string name, Signal &source) : 
-    source(source)
+Project2::PressureSensor::PressureSensor(string name, Signal &source) :
+    Sensor(name, source)
 {
-    strcpy(this->name, name);
+
 }
 
 // Getters
-String
+string
 Project2::PressureSensor::getUnits() const {
     return "Pounds per square inch (PSI)";
 }

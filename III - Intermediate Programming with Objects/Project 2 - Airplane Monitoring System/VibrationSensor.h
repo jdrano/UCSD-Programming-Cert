@@ -6,12 +6,13 @@
 // VibrationSensor.h
 // Win10
 // Visual Studio 2022
-// Definitions for TemperatureSensor class.
+// Definitions for VibrationSensor class.
 
 #ifndef PROJECT2_VIBRATIONSENSOR_H
 #define PROJECT2_VIBRATIONSENSOR_H
 
 #include "Time.h"
+#include "Sensor.h"
 
 namespace Project2
 {
@@ -23,7 +24,7 @@ namespace Project2
     // RESOURCES
     //      None
     //=========================================================================
-    class VibrationSensor
+    class VibrationSensor : public Sensor
     {
     public:
         //---------------------------------------------------------------------
@@ -45,6 +46,19 @@ namespace Project2
         VibrationSensor(string name, Signal &source);
 
     protected:
+        //---------------------------------------------------------------------
+        // SUMMARY
+        //      Returns the type of units necessary per type of sensor
+        //
+        // RESOURCES
+        //      None
+        //
+        // PARAMETERS
+        //      None
+        //
+        // RETURNS
+        //      A string of the name of the unit type
+        //---------------------------------------------------------------------
         string getUnits() const;
 
     };

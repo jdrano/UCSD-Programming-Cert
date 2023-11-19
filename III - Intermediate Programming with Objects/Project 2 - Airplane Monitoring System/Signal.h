@@ -36,25 +36,25 @@ namespace Project2
         // PARAMETERS
         //      voltageOffset
         //          The voltage offset based off the signal
-        //      timeOffset
-        //          A time object that tracks the variation of time.
+        //      TimeOffset
+        //          A Time object that tracks the variation of Time.
         //
         // RETURNS
         //      Nothing
         //---------------------------------------------------------------------
-        Signal(double voltageOffset, Time timeOffset);
+        Signal(double voltageOffset, Time TimeOffset);
 
         //---------------------------------------------------------------------
         // SUMMARY
-        //      Returns a string of information containing the time and the data
-        //      associated with the sensors and voltage at that time.
+        //      Returns a string of information containing the Time and the data
+        //      associated with the sensors and voltage at that Time.
         //
         // RESOURCES
         //      None
         //
         // PARAMETERS
-        //      timestamp
-        //          Our time object associated with the snapshot
+        //      Timestamp
+        //          Our Time object associated with the snapshot
         //      sensorName
         //          The name of the sensor of our snapshot
         //      sensorVoltage
@@ -63,7 +63,7 @@ namespace Project2
         //          The measurement of what type of units we are measuring
         //
         // RETURNS
-        //      A string detailing all info on a sensor at a given time.
+        //      A string detailing all info on a sensor at a given Time.
         //---------------------------------------------------------------------
         virtual double getVoltageAtTime(Time t) const = 0;
 
@@ -72,7 +72,7 @@ namespace Project2
         double getVoltageOffset() const;
 
     private:
-        Time timeOffset;
+        Time TimeOffset;
         double voltageOffset;
     };
 }

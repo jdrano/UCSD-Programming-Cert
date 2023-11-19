@@ -45,15 +45,15 @@ namespace Project2
 
         //---------------------------------------------------------------------
         // SUMMARY
-        //      Returns a string of information containing the time and the data
-        //      associated with the sensors and voltage at that time.
+        //      Returns a string of information containing the Time and the data
+        //      associated with the sensors and voltage at that Time.
         //
         // RESOURCES
         //      None
         //
         // PARAMETERS
-        //      timestamp
-        //          Our time object associated with the snapshot
+        //      Timestamp
+        //          Our Time object associated with the snapshot
         //      sensorName
         //          The name of the sensor of our snapshot
         //      sensorVoltage
@@ -62,9 +62,9 @@ namespace Project2
         //          The measurement of what type of units we are measuring
         //
         // RETURNS
-        //      A string detailing all info on a sensor at a given time.
+        //      A string detailing all info on a sensor at a given Time.
         //---------------------------------------------------------------------
-        string log(Time timestamp, string sensorName, double sensorVoltage, 
+        string log(Time Timestamp, string sensorName, double sensorVoltage, 
             string sensorUnits);
 
         

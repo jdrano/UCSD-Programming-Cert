@@ -12,6 +12,7 @@
 #define PROJECT2_PRESSURESENSOR_H
 
 #include "Time.h"
+#include "Sensor.h"
 
 namespace Project2
 {
@@ -23,7 +24,7 @@ namespace Project2
     // RESOURCES
     //      None
     //=========================================================================
-    class Sensor
+    class PressureSensor : public Sensor
     {
     public:
         //---------------------------------------------------------------------
@@ -45,6 +46,19 @@ namespace Project2
         PressureSensor(string name, Signal &source);
 
     protected:
+        //---------------------------------------------------------------------
+        // SUMMARY
+        //      Returns the type of units necessary per type of sensor
+        //
+        // RESOURCES
+        //      None
+        //
+        // PARAMETERS
+        //      None
+        //
+        // RETURNS
+        //      A string of the name of the unit type
+        //---------------------------------------------------------------------
         string getUnits() const;
 
     };

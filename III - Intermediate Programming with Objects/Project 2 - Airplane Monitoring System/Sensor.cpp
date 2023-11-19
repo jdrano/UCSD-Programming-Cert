@@ -15,14 +15,14 @@ using namespace Project2;
 
 
 // Constructors
-Project2::Sensor::Sensor(string name, Signal &source) : 
-    source(source)
+Project2::Sensor::Sensor(string name, Signal &source) :
+    name(name), source(source)
 {
-    strcpy(this->name, name);
+
 }
 
 // Getters
-String
+string
 Project2::Sensor::getName() const {
     return name;
 }
@@ -32,6 +32,7 @@ Project2::Sensor::getSource() const {
     return source;
 }
 
+void
 Project2::Sensor::takeReading(Time t, DataRecorder &recorder) {
     recorder.log(t, getName(), getSource().getVoltageAtTime(t), getUnits());
 }

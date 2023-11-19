@@ -18,7 +18,7 @@ namespace Project2
 {
     //=========================================================================
     // SUMMARY
-    //      The time object contains hours, minutes, and seconds,
+    //      The Time object contains hours, minutes, and seconds,
     //       
     // RESOURCES
     //      None
@@ -48,7 +48,7 @@ namespace Project2
 
         //---------------------------------------------------------------------
         // SUMMARY
-        //      Add current time together and returns the total number of 
+        //      Add current Time together and returns the total number of 
         //      seconds
         //
         // RESOURCES
@@ -58,7 +58,7 @@ namespace Project2
         //      None
         //
         // RETURNS
-        //      The total amount of seconds in the time object
+        //      The total amount of seconds in the Time object
         //---------------------------------------------------------------------
         int getTotalTimeAsSeconds() const;
 
@@ -71,17 +71,17 @@ namespace Project2
         //
         // PARAMETERS
         //      &rhs
-        //          reference to a time object we will be adding to the lhs
-        //          time object
+        //          reference to a Time object we will be adding to the lhs
+        //          Time object
         //
         // RETURNS
-        //      updated time object
+        //      updated Time object
         //---------------------------------------------------------------------
         Time &operator+=(const Time &rhs);
 
         //---------------------------------------------------------------------
         // SUMMARY
-        //      Overloads the '<<' operator to output the time in a date format
+        //      Overloads the '<<' operator to output the Time in a date format
         //
         // RESOURCES
         //      none
@@ -90,7 +90,7 @@ namespace Project2
         //      &out
         //          reference to output stream we are writing to
         //      &source
-        //          reference to a time object we will be printing
+        //          reference to a Time object we will be printing
         //
         // RETURNS
         //      ostream we are writing to

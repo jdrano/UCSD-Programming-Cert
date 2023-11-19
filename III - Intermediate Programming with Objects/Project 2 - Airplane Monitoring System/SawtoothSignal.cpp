@@ -14,9 +14,9 @@ using namespace std;
 using namespace Project2;
 
 // Constructors
-Project2::SawtoothSignal::SawtoothSignal(double voltageOffset, Time timeOffset,
+Project2::SawtoothSignal::SawtoothSignal(double voltageOffset, Time TimeOffset,
     double minVoltage, double maxVoltage, Time period)
-    : PeriodicSignal(voltageOffset, timeOffset, minVoltage, maxVoltage, period)
+    : PeriodicSignal(voltageOffset, TimeOffset, minVoltage, maxVoltage, period)
 {
 
 }
