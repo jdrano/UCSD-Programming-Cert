@@ -6,7 +6,7 @@
 // PressureSensor.h
 // Win10
 // Visual Studio 2022
-// Definitions for Sensor abstract class.
+// Definitions for PressureSensor class.
 
 #ifndef PROJECT2_PRESSURESENSOR_H
 #define PROJECT2_PRESSURESENSOR_H

@@ -6,7 +6,7 @@
 // SawtoothSignal.h
 // Win10
 // Visual Studio 2022
-// Definitions for ConstantSignal class.
+// Definitions for SawtoothSignal class.
 
 #ifndef PROJECT2_SAWTOOTHSIGNAL_H
 #define PROJECT2_SAWTOOTHSIGNAL_H

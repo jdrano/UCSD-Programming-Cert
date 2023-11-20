@@ -68,8 +68,49 @@ namespace Project2
         virtual double getVoltageAtTime(Time t) const = 0;
 
     protected:
+        //---------------------------------------------------------------------
+        // SUMMARY
+        //      Returns the min voltage.
+        //
+        // RESOURCES
+        //      None
+        //
+        // PARAMETERS
+        //      None
+        //
+        // RETURNS
+        //      A double referring to the minimum volts of the periodic signal.
+        //---------------------------------------------------------------------
         double getMinVoltage() const;
+
+        //---------------------------------------------------------------------
+        // SUMMARY
+        //      Returns the max voltage.
+        //
+        // RESOURCES
+        //      None
+        //
+        // PARAMETERS
+        //      None
+        //
+        // RETURNS
+        //      A double referring to the maximum volts of the periodic signal.
+        //---------------------------------------------------------------------
         double getMaxVoltage() const;
+
+        //---------------------------------------------------------------------
+        // SUMMARY
+        //      Returns the time of the period.
+        //
+        // RESOURCES
+        //      None
+        //
+        // PARAMETERS
+        //      None
+        //
+        // RETURNS
+        //      A time object that references to the length of the period.
+        //---------------------------------------------------------------------
         Time getPeriod() const;
 
     private:

@@ -6,7 +6,7 @@
 // SineSignal.h
 // Win10
 // Visual Studio 2022
-// Definitions for ConstantSignal class.
+// Definitions for SineSignal class.
 
 #ifndef PROJECT2_SINESIGNAL_H
 #define PROJECT2_SINESIGNAL_H

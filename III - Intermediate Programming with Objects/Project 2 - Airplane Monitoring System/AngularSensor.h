@@ -6,7 +6,7 @@
 // AngularSensor.h
 // Win10
 // Visual Studio 2022
-// Definitions for Sensor abstract class.
+// Definitions for AngularSensor class.
 
 #ifndef PROJECT2_ANGULARSENSOR_H
 #define PROJECT2_ANGULARSENSOR_H
