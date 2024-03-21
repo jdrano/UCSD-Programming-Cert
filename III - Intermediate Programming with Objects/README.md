@@ -1,6 +1,5 @@
 Course Description:
-This course will emphasize using object oriented analysis and design techniques
-to learn the C++ programming language. Students completing the course will learn C++ syntax, how to make use of the C++ standard library, and how to design and implement custom types that extend the standard library.
+This course will emphasize using object oriented analysis and design techniques to learn the C++ programming language. Students completing the course will learn C++ syntax, how to make use of the C++ standard library, and how to design and implement custom types that extend the standard library.
 
 Course Highlights:
 Object oriented analysis and design |

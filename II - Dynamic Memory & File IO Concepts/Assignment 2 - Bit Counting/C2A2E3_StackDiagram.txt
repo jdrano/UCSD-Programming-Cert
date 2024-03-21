@@ -1,0 +1,41 @@
+Jose Medrano, U09845800
+jcdrano@gmail.com
+C/C++ Programming II : Dynamic Memory and File I/O Concepts
+177752, Prof. Mitchell
+01/17/24
+C2A2E3_StackDiagram.txt
+Stack Diagram
+
+Rel      Abs   Stack           Description         Item
+Adr      Adr   Value                               Size
+------------------------ startup -------------------------
+BP+4h    E59h  1011h   Function Return Address   (4 bytes)
+BP       E55h     0h   Previous Frame Address    (4 bytes)
+-------------------------- main --------------------------
+                ??     Return Object (int)       (8 bytes)
+                ??     Function Return Address   (4 bytes)
+                ??     Previous Frame Address    (4 bytes)
+                ??     result                    (8 bytes)
+-------------------------- ready --------------------------
+                       Return Object (double)    (9 bytes)
+                       Function Return Address   (4 bytes)
+                       Previous Frame Address    (4 bytes)
+                       temp                      (8 bytes)
+-------------------------- gcd 1 --------------------------
+                       Return Object (short)     (6 bytes)
+                       x (long)                  (9 bytes)
+                       y (short)                 (6 bytes)
+                       Function Return Address   (4 bytes)
+                       Previous Frame Address    (4 bytes)
+-------------------------- gcd 2 --------------------------
+                       Return Object (short)     (6 bytes)
+                       x (long)                  (9 bytes)
+                       y (short)                 (6 bytes)
+                       Function Return Address   (4 bytes)
+                       Previous Frame Address    (4 bytes)
+-------------------------- gcd 3 --------------------------
+                       Return Object (short)     (6 bytes)
+                       x (long)                  (9 bytes)
+                       y (short)                 (6 bytes)
+                       Function Return Address   (4 bytes)
+                       Previous Frame Address    (4 bytes)

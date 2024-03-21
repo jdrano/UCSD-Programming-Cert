@@ -1,0 +1,18 @@
+Jose Medrano, U09845800
+jcdrano@gmail.com
+C/C++ Programming II : Dynamic Memory and File I/O Concepts
+177752, Prof. Mitchell
+01/09/24
+C2A1E0_Quiz.txt
+Quiz answers
+
+1.E
+2.D
+3.A
+4.D
+5.D
+6.A
+7.B
+8.D
+9.A
+10.B

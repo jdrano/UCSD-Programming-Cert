@@ -1,0 +1,17 @@
+Jose Medrano, U09845800
+jcdrano@gmail.com
+C/C++ Programming II : Dynamic Memory and File I/O Concepts
+177752, Prof. Mitchell
+01/28/24
+C2A3E1_Sentences.txt
+
+1. film decays to a pointer to a double.
+2. film is a double.
+3. film is an array of doubles.
+4. film decays to a pointer to a double.
+5. film is an array of doubles.
+6. film decays to a pointer to a double.
+7. film is a pointer to a double.
+8. film is a pointer to a double.
+9. film is an array of doubles.
+10. film decays to a pointer to a double.
